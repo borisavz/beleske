@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.beleske.borisavz.Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/newNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Нова белешка" />
+
+        <Button
+            android:id="@+id/allNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Све белешке" />
+
+        <Button
+            android:id="@+id/singleNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Појединачне белешке" />
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="О апликацији" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
